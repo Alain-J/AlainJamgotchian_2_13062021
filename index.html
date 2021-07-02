@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/360078f766.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="css/normalizer.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Reservia</title>
+    </head>
+
+    <body style="background-color: aquamarine">
+        <!-- contenu du site -->
+
+        <header style="background-color: rgb(70, 130, 199)">
+            <!--En tête-->
+            <a class="logo" href="#">
+                <img
+                    src="sources/images/logo/Reservia.svg"
+                    alt="logo du site"
+                />
+            </a>
+
+            <nav style="background-color: rgb(199, 98, 194)">
+                <!--Debut lien principaux de navigation-->
+
+                <ul style="background-color: rgb(207, 129, 40)">
+                    <li
+                        class="nav-accomodations"
+                        style="background-color: rgb(186, 176, 238)"
+                    >
+                        <a href="#hebergements">Hébergements</a>
+                    </li>
+                    <li
+                        class="nav-activities"
+                        style="background-color: rgb(209, 206, 41)"
+                    >
+                        <a href="#activites">Activités</a>
+                    </li>
+                    <li
+                        class="nav-register"
+                        style="background-color: rgb(161, 42, 42)"
+                    >
+                        <a href="#">S'inscrire</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Fin lien principaux -->
+        </header>
+        <!--Fin en tête-->
+
+        <main style="background-color: rgb(150, 188, 231)">
+            <header class="debut" style="background-color: rgb(205, 170, 240)">
+                <h1 style="background-color: rgb(243, 231, 208)">
+                    Trouvez votre hébergement pour des vacances de rêves
+                </h1>
+                <p style="background-color: rgb(245, 188, 188)">
+                    En plein centre ville ou en pleine nature
+                </p>
+            </header>
+
+            <form method="post" style="background-color: rgb(238, 232, 178)">
+                <div
+                    class="formulaire"
+                    style="background-color: rgb(205, 240, 111)"
+                >
+                    <label class="" for="serach"
+                        ><i class="fas fa-map-marker-alt"></i
+                    ></label>
+                    <input
+                        type="text"
+                        name="search"
+                        id="search"
+                        placeholder="Marseille, France"
+                    />
+                    <button>
+                        <i class="fas fa-search"></i
+                        ><span class="rechercher">Rechercher</span>
+                    </button>
+                    <!--champ de recherche-->
+                </div>
+
+                <h2 style="background-color: rgb(148, 122, 143)">Filtres</h2>
+                <button class="eco">
+                    <i class="fas fa-money-bill-wave"></i
+                    ><span>Economique</span>
+                </button>
+                <button class="familial">
+                    <i class="fas fa-child"></i><span>Familial</span>
+                </button>
+                <button class="romantique">
+                    <i class="fas fa-heart"></i><span>Romantique</span>
+                </button>
+                <button class="animaux">
+                    <i class="fas fa-dog"></i><span>Animaux autorises</span>
+                </button>
+                <p style="background-color: rgb(143, 138, 141)">
+                    <i class="fas fa-info"></i>Plus de 500 logements sont
+                    disponibles dans cette ville
+                </p>
+            </form>
+
+            <section
+                class="hebergements"
+                style="background-color: rgb(213, 215, 223)"
+            >
+                <!--Section de page-->
+                <header>
+                    <h3 style="background-color: rgb(87, 106, 112)">
+                        Hébergements à Marseille
+                    </h3>
+                </header>
+                <article style="background-color: rgb(146, 145, 145)">
+                    <a href="">
+                        <figure
+                            style="background-color: rgba(245, 245, 220, 0.795)"
+                        >
+                            <img
+                                src="sources/images/hebergements/4_small/hebergements 1.jpg"
+                                alt="image chambre 1"
+                            />
+                            <figcaption style="background-color: cadetblue">
+                                <h4 style="background-color: darkcyan">
+                                    Aubergre de la Canebière
+                                </h4>
+                                <p style="background-color: darkmagenta">
+                                    Nuit à partir de 25€
+                                </p>
+                                <div
+                                    style="background-color: rgb(211, 107, 107)"
+                                >
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article style="background-color: rgb(174, 187, 115)">
+                    <a href="#">
+                        <figure style="background-color: rgb(101, 206, 171)">
+                            <img
+                                src="sources/images/hebergements/4_small/hebergements 2.jpg"
+                                alt="image chambre 2"
+                            />
+                            <figcaption style="background-color: cadetblue">
+                                <h4 style="background-color: rgb(53, 71, 88)">
+                                    Hôtel du Port
+                                </h4>
+                                <p style="background-color: chocolate">
+                                    Nuit à partir de 52€
+                                </p>
+                                <div style="background-color: burlywood">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article style="background-color: rgb(74, 105, 74)">
+                    <a href="#">
+                        <figure style="background-color: rgb(216, 17, 17)">
+                            <img
+                                src="sources/images/hebergements/4_small/hebergements 3.jpg"
+                                alt="image chambre 3"
+                            />
+                            <figcaption
+                                style="background-color: rgb(133, 133, 192)"
+                            >
+                                <h4 style="background-color: rgb(42, 100, 100)">
+                                    Hôtel Les mouettes
+                                </h4>
+                                <p style="background-color: rgb(255, 255, 255)">
+                                    Nuit à partir de 76€
+                                </p>
+                                <div style="background-color: rgb(74, 126, 22)">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article style="background-color: rgb(158, 63, 111)">
+                    <a href="#">
+                        <figure style="background-color: rgb(1, 109, 1)">
+                            <img
+                                src="sources/images/hebergements/4_small/hebergements 4.jpg"
+                                alt="image chambre 4"
+                            />
+                            <figcaption
+                                style="background-color: rgb(134, 71, 134)"
+                            >
+                                <h4
+                                    style="background-color: rgb(177, 173, 139)"
+                                >
+                                    Hôtel de la mer
+                                </h4>
+                                <p style="background-color: rgb(167, 133, 82)">
+                                    Nuit à partir de 46€
+                                </p>
+                                <div
+                                    style="background-color: rgb(126, 111, 138)"
+                                >
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article style="background-color: rgb(252, 250, 247)">
+                    <a href="#">
+                        <figure style="background-color: aquamarine">
+                            <img
+                                src="sources/images/hebergements/4_small/hebergements 5.jpg"
+                                alt="image chambre 5"
+                            />
+                            <figcaption style="background-color: darkturquoise">
+                                <h4
+                                    style="background-color: rgb(128, 185, 136)"
+                                >
+                                    Auberge Le Panier
+                                </h4>
+                                <p style="background-color: rgb(59, 91, 102)">
+                                    Nuit à partir de 23€
+                                </p>
+                                <div
+                                    style="background-color: rgb(129, 120, 66)"
+                                >
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article style="background-color: rgb(85, 138, 6)">
+                    <a href="#">
+                        <figure style="background-color: rgb(177, 173, 173)">
+                            <img
+                                src="sources/images/hebergements/4_small/hebergements 6.jpg"
+                                alt="image chambre 6"
+                            />
+                            <figcaption
+                                style="background-color: rgb(100, 95, 133)"
+                            >
+                                <h4
+                                    style="background-color: rgb(126, 126, 126)"
+                                >
+                                    Hôtel chez Amina
+                                </h4>
+                                <p style="background-color: rgb(121, 101, 76)">
+                                    Nuit à partir de 96€
+                                </p>
+                                <div
+                                    style="background-color: rgb(196, 201, 196)"
+                                >
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <a href="#" style="background-color: rgb(93, 172, 175)">
+                    Afficher plus
+                </a>
+            </section>
+
+            <section
+                class="populaires"
+                style="background-color: rgba(240, 230, 140, 0.493)"
+            >
+                <header
+                    class="logopop"
+                    style="background-color: rgb(214, 214, 41)"
+                >
+                    <h3 style="background-color: rgb(86, 77, 99)">
+                        Les plus populaires
+                    </h3>
+
+                    <i class="fas fa-chart-line"></i>
+                </header>
+
+                <a href="#">
+                    <figure style="background-color: teal">
+                        <img
+                            src="sources/images/hebergements/4_small/populaires 1.jpg"
+                            alt="image chambre 1"
+                        />
+                        <figcaption
+                            style="background-color: rgb(125, 150, 125)"
+                        >
+                            <h4 style="background-color: rgb(100, 66, 100)">
+                                Hôtel Le soleil du matin
+                            </h4>
+                            <p style="background-color: rgb(113, 113, 163)">
+                                Nuit à partir de 128€
+                            </p>
+                            <div style="background-color: rgb(129, 129, 129)">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: rgb(114, 92, 240)">
+                        <img
+                            src="sources/images/hebergements/4_small/populaires 2.jpg"
+                            alt="image chambre 2"
+                        />
+                        <figcaption>
+                            <h4 style="background-color: rgb(226, 193, 135)">
+                                Au coeur de l'eau Chambre D'hôtes
+                            </h4>
+                            <p style="background-color: rgb(99, 99, 79)">
+                                Nuit à partir de 71€
+                            </p>
+                            <div style="background-color: rgb(187, 109, 135)">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: rgb(209, 184, 143)">
+                        <img
+                            src="sources/images/hebergements/4_small/populaires 3.jpg"
+                            alt="image chambre 3"
+                        />
+                        <figcaption style="background-color: rgb(211, 91, 211)">
+                            <h4 style="background-color: rgb(107, 95, 107)">
+                                Hôtel Tout bleu et Blanc
+                            </h4>
+                            <p style="background-color: rgb(219, 77, 77)">
+                                Nuit à partir de 68€
+                            </p>
+                            <div style="background-color: rgb(79, 145, 79)">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </section>
+
+            <aside id="activites">
+                <h4 style="background-color: rgb(101, 206, 171)">
+                    Activitès à Marseille
+                </h4>
+                <a href="#">
+                    <figure style="background-color: rgb(113, 113, 163)">
+                        <img
+                            src="sources/images/activites/3_medium/activites 1.jpg "
+                            alt="image activités 1"
+                        />
+                        <figcaption style="background-color: rgb(207, 129, 40)">
+                            <h4 style="background-color: rgb(85, 62, 211)">
+                                Vieux Port
+                            </h4>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: rgb(99, 99, 79)">
+                        <img
+                            src="sources/images/activites/3_medium/activites 2.jpg"
+                            alt="image activites 2"
+                        />
+                        <figcaption style="background-color: rgb(1, 109, 1)">
+                            <h4 style="background-color: rgb(214, 214, 41)">
+                                Fort de Pomegues
+                            </h4>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: rgb(243, 231, 208)">
+                        <img
+                            src="sources/images/activites/3_medium/activites 3.jpg"
+                            alt="image activites 3"
+                        />
+                        <figcaption
+                            style="background-color: rgb(255, 255, 255)"
+                        >
+                            <h4 style="background-color: rgb(79, 145, 79)">
+                                Iles du Frioul
+                            </h4>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: royalblue">
+                        <img
+                            src="sources/images/activites/3_medium/activites 4.jpg"
+                            alt="image activites 4"
+                        />
+                        <figcaption style="background-color: rgb(141, 64, 29)">
+                            <h4 style="background-color: rgb(112, 106, 106)">
+                                Parc National des Calanques
+                            </h4>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: rgb(218, 218, 109)">
+                        <img
+                            src="sources/images/activites/3_medium/activites 5.jpg"
+                            alt="image activites 5"
+                        />
+                        <figcaption style="background-color: rgb(248, 99, 72)">
+                            <h4 style="background-color: rgb(90, 197, 186)">
+                                Notre-Dame-de-la-Garde
+                            </h4>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure style="background-color: rgb(179, 76, 179)">
+                        <img
+                            src="sources/images/activites/3_medium/activites 6.jpg"
+                            alt="image activites 6"
+                        />
+                        <figcaption
+                            style="background-color: rgb(221, 188, 188)"
+                        >
+                            <h4 style="background-color: rgb(150, 209, 30)">
+                                Parc Longchamp
+                            </h4>
+                        </figcaption>
+                    </figure>
+                </a>
+            </aside>
+            <!--Fin section de page-->
+        </main>
+
+        <footer class="info" style="background-color: rgb(223, 172, 223)">
+            <!--Debut Pied de page-->
+            <h4 style="background-color: rgb(109, 117, 93)">A propos</h4>
+            <ul class="propos" style="background-color: rgb(126, 111, 138)">
+                <li style="background-color: rgb(133, 133, 192)">
+                    <a href="#">Fonctionnement du site</a>
+                </li>
+                <li style="background-color: rgb(150, 188, 231)">
+                    <a href="#">Conditions générales de vente</a>
+                </li>
+                <li style="background-color: rgb(214, 214, 41)">
+                    <a href="#">Données et confidentialités</a>
+                </li>
+            </ul>
+
+            <h4 style="background-color: rgb(94, 94, 85)">Nos hebergements</h4>
+            <ul class="nosheb" style="background-color: rgb(223, 172, 223)">
+                <li style="background-color: rgb(245, 188, 188)">
+                    <a href="#">Charte qualites</a>
+                </li>
+                <li style="background-color: rgb(42, 100, 100)">
+                    <a href="#">Soumettre votre hôtel</a>
+                </li>
+            </ul>
+
+            <h4 style="background-color: rgba(245, 245, 220, 0.795)">
+                Assistance
+            </h4>
+            <ul class="assistance" style="background-color: rgb(116, 116, 230)">
+                <li style="background-color: rgb(187, 109, 135)">
+                    <a href="#">Centre d'aide</a>
+                </li>
+                <li style="background-color: rgb(243, 62, 62)">
+                    <a href="#">Nous contacter</a>
+                </li>
+            </ul>
+        </footer>
+        <!--Fin pied de page-->
+    </body>
+</html>
