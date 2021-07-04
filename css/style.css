@@ -46,6 +46,7 @@ header > nav > ul {
     grid-template-areas:
         ". nav-register"
         "nav-accomodations nav-activities";
+    grid-template-rows: 60px 60px;
 }
 
 .nav-register {
@@ -55,6 +56,8 @@ header > nav > ul {
 
 .nav-accomodations {
     grid-area: nav-accomodations;
+    text-align: center;
+    line-height: 60px;
 }
 
 .nav-activities {
@@ -64,6 +67,7 @@ header > nav > ul {
 .nav-accomodations,
 .nav-activities {
     text-align: center;
+    line-height: 60px;
 }
 
 .fa-child,
@@ -102,8 +106,8 @@ form {
     grid-area: hebergements;
     display: grid;
     grid-template-columns: 1fr;
-
-    padding: 55px;
+    grid-gap: 20px;
+    padding: 20px;
 }
 
 .populaires {
@@ -111,7 +115,7 @@ form {
     display: grid;
     grid-template-columns: 1fr;
 
-    padding: 55px;
+    padding: 20px;
 }
 
 aside {
@@ -125,6 +129,7 @@ aside {
 .logopop {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .rechercher {
@@ -185,7 +190,7 @@ footer li {
 
 .hebergements a {
     display: block;
-    height: 120%;
+    height: 100%;
 }
 
 .hebergements figure {
@@ -194,11 +199,12 @@ footer li {
 }
 
 .hebergements img {
-    height: 67%;
+    height: calc(100% - 75px);
+    object-fit: cover;
 }
 
 .hebergements figcaption {
-    height: 80%;
+    height: 75%;
     padding: 5px;
 }
 
@@ -223,14 +229,18 @@ aside figcaption {
 
 .logo {
     display: block;
-    height: 30%;
+    padding-left: 20px;
+    padding-top: 5px;
 }
 
 .logo img {
-    width: 35%;
+    width: auto;
+    height: 50px;
 }
 
-.romantique {
-    display: flex;
-    flex-direction: column;
+.fa-info {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
 }
