@@ -1,0 +1,5 @@
+header > nav > ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". nav-accomodations nav-activities nav-register";
+    grid-template-rows: 60px;
+}
