@@ -3,10 +3,30 @@ header > nav > ul {
     grid-template-areas: ". nav-accomodations nav-activities nav-register";
     grid-template-rows: 60px;
 }
-
 .hebergements {
     grid-area: hebergements;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: "titre titre";
+
     grid-gap: 10px;
     padding: 20px;
+}
+
+.titre {
+    grid-area: titre;
+}
+
+aside {
+    grid-area: aside;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "loisir loisir";
+    grid-gap: 10px;
+
+    padding: 20px;
+}
+
+.loisir {
+    grid-area: loisir;
+}
