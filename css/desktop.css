@@ -38,6 +38,7 @@ main {
         "form form"
         "hebergements populaires"
         "aside aside";
+    margin-top: -145px;
 }
 
 .hebergements {
