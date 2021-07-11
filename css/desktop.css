@@ -8,7 +8,6 @@ header > nav > ul {
 .nav-accomodations,
 .nav-activities {
     text-align: center;
-    line-height: 65px;
     width: 112px;
 }
 
@@ -84,9 +83,9 @@ aside {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "loisir loisir loisir loisir";
-    grid-gap: 10px;
+    grid-gap: 30px;
 
-    padding: 20px;
+    padding: 30px;
 }
 
 .loisir {
@@ -94,37 +93,86 @@ aside {
 }
 
 .un {
-    grid-row: 2/7;
     grid-column: 1/2;
-    height: 542px;
+    grid-row: 2/7;
+    height: 332px;
 }
 
 .un img {
-    height: 500px;
+    height: 297px;
 }
 
 .deux {
     grid-column: 2/3;
-    grid-row: 2/5;
-    height: 310px;
+    height: 183px;
 }
 
-.deux img {
-    height: 266px;
-}
-
-.trois {
-    grid-column: 3/4;
-    grid-row: 2/7;
+.ok {
+    grid-column: 2/3;
+    grid-row: 3;
 }
 
 .parc {
-    grid-column: 4/5;
-    grid-row: 2/3;
+    grid-column: 3/4;
+    grid-row: 2/7;
+    height: 332px;
+}
+
+.parc img {
+    height: 297px;
 }
 
 .cinq {
+    height: 150px;
+}
+
+.cinq img {
+    height: 135px;
 }
 
 .six {
+    grid-column: 4/5;
+    grid-row: 3;
+}
+
+input {
+    width: 30%;
+}
+
+.rechercher {
+    display: block;
+    width: 40%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "prop heber assis"
+        "propos nosheb assistance";
+    grid-gap: 10px;
+}
+
+.prop {
+    grid-area: prop;
+}
+
+.heber {
+    grid-area: heber;
+}
+
+.assis {
+    grid-area: assis;
+}
+
+.propos {
+    grid-area: propos;
+}
+
+.nosheb {
+    grid-area: nosheb;
+}
+
+.assistance {
+    grid-area: assistance;
 }
