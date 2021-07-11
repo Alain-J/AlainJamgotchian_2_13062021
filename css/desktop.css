@@ -4,7 +4,6 @@ header > nav > ul {
     grid-template-areas: ".nav-accomodations nav-activities  nav-register";
     grid-template-rows: 60px 60px;
     grid-gap: 80px;
-    margin: 0 25px;
 }
 
 .nav-accomodations,
@@ -70,13 +69,18 @@ main {
     border-radius: 20px;
 }
 
-.search {
-    display: none;
-}
-
 .formulaire {
     margin: 0px 0px 30px 0px;
     padding: 0;
+}
+
+.search {
+    border-radius: 15px;
+    height: 45px;
+    width: 110px;
+    border: none;
+    background-color: #0065fc;
+    margin-left: -10px;
 }
 
 input {
@@ -87,6 +91,11 @@ input {
     border-right: none;
     border-left: none;
     padding-left: 5px;
+}
+
+.rechercher {
+    display: block;
+    color: white;
 }
 
 aside {
@@ -150,11 +159,6 @@ input {
     width: 20%;
 }
 
-.rechercher {
-    display: block;
-    width: 40%;
-}
-
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -195,4 +199,12 @@ footer {
 
 .filtree h2 {
     margin: 10px;
+}
+
+.fa-search {
+    display: none;
+}
+
+footer {
+    font-size: 11px;
 }
