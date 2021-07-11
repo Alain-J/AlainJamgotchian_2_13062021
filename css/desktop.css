@@ -17,6 +17,7 @@ header > nav > ul {
     text-align: right;
     line-height: 70px;
     color: #0065fc;
+    margin: 0px 25px;
 }
 
 .nav-accomodations {
