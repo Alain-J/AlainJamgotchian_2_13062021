@@ -194,7 +194,7 @@ footer {
 
 .filtree {
     display: flex;
-    grid-gap: 30px;
+    grid-gap: 20px;
 }
 
 .filtree h2 {

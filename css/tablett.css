@@ -30,7 +30,3 @@ aside {
 .loisir {
     grid-area: loisir;
 }
-
-.rechercher {
-    display: none;
-}
