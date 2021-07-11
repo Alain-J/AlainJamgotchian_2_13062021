@@ -3,6 +3,8 @@ header > nav > ul {
     grid-template-columns: 1fr;
     grid-template-areas: ".nav-accomodations nav-activities  nav-register";
     grid-template-rows: 60px 60px;
+    grid-gap: 80px;
+    margin: 0 25px;
 }
 
 .nav-accomodations,
@@ -70,6 +72,11 @@ main {
 
 .search {
     display: none;
+}
+
+.formulaire {
+    margin: 0px 0px 30px 0px;
+    padding: 0;
 }
 
 input {
@@ -140,7 +147,7 @@ aside {
 }
 
 input {
-    width: 30%;
+    width: 20%;
 }
 
 .rechercher {
@@ -179,4 +186,13 @@ footer {
 
 .assistance {
     grid-area: assistance;
+}
+
+.filtree {
+    display: flex;
+    grid-gap: 30px;
+}
+
+.filtree h2 {
+    margin: 10px;
 }
