@@ -303,7 +303,7 @@ input {
     margin-left: -10px;
 }
 
-* {
+html {
     font-family: "Raleway", sans-serif;
     color: black;
 }
