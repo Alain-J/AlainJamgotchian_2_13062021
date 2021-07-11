@@ -69,6 +69,10 @@ main {
     padding: 15px;
 }
 
+.trouvez {
+    font-size: 22px;
+}
+
 form {
     grid-area: form;
     padding: 20px;
